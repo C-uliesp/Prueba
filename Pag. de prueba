@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de prueba para confirmar compatibilidad de navegadores y optimización SEO">
+    <meta name="keywords" content="compatibilidad, SEO, Mozilla Firefox, Google Chrome, Microsoft Edge, pruebas de diseño">
+    <title>Página de Prueba de la Actividad #2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+        main {
+            padding: 1em;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .content div {
+            flex: 1 1 300px;
+            padding: 1em;
+            box-sizing: border-box;
+            text-align: center;
+            border: 1px solid #ddd;
+            margin: 1em;
+        }
+        .content img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 1em;
+            border-radius: 8px;
+        }
+        @media (max-width: 600px) {
+            .content {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Página para la Pruebas de Compatibilidad y optimización SEO</h1>
+        
+    </header>
+    <main>
+        <h2><center>Bienvenido a la Pagina de Prueba</center></h2>
+       <p><center>Esta pagina un ejemplo con imagenes de IA para probar la compatibilidad en diferentes navegadores y su optimización en el SEO,
+            y completar así la actividad #2 de este 2do RA del módulo.</center>
+        </p> 
+        <div class="content">
+            <div>
+                <h3>Cielo Nocturno Cibernético</h3>
+                <img src="img/cool image 1.png">
+                <p>Una impresionante vista del cielo nocturno 
+                    con un toque futurista. Las estrellas brillan 
+                    con intensidad y las líneas de código parecen 
+                    flotar entre ellas, creando una fusión de 
+                    tecnología y naturaleza.</p>
+            </div>
+            <div>
+                <h3>Selva de Neón</h3>
+                <img src="img/Selva de Neón.png">
+                <p>Una jungla urbana iluminada por luces de neón. 
+                    Árboles y plantas emiten un brillo fluorescente
+                    mientras la ciudad se mezcla con la naturaleza 
+                    en un espectáculo visual vibrante y surrealista.</p>
+            </div>
+            <div>
+                <h3>Olas de Fuego</h3>
+                <img src="img/Olas de Fuego.png">
+                <p>Un mar de fuego que desafía la realidad. Las olas 
+                    ardientes se alzan con majestuosa furia, mostrando 
+                    la belleza y el poder destructivo de la naturaleza 
+                    en una imagen impactante y llena de energía.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 Página de Prueba - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
